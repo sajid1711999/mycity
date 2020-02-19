@@ -2,8 +2,12 @@
   "name": "mydoc",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+  	"node":"12.15.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node index.js"
   },
   "keywords": [],
   "author": "sazidur",
